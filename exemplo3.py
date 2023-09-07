@@ -13,7 +13,7 @@ from spacy import load
 from spacy import displacy
 
 
-nlp = load('pt_core_news_lg')
+nlp = load('pt_core_news_sm')
 
 bar = st.sidebar
 escolha = bar.selectbox(
